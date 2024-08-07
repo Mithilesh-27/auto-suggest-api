@@ -31,7 +31,7 @@ A backend project that provides auto-suggest functionality based on user input.
     node --watch ./src/server.js
     ```
 
-The app will start running on port 5000 on the browser.
+The app will start running on port 5000 on the browser. Navigate to `http://localhost:5000/api/suggest?ap`. All the terms in the database containing 'ap' as substring will get filtered. You can try different queries as filters.
 
 ## Testing
 1. To perform testing using jest and supertest, run the following commmand:
